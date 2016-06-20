@@ -4,10 +4,10 @@
 Purpose of this project is to make tidy dateset generated from smart device data.
 
 # Desciption of files
-CodeBook.md - 
-run_analysis.R - R source code for making tidy dataset
-README.md - this file
-dataset.txt - tidy dataset that is result of run_analysis.R
+ - CodeBook.md - a file containing information of variables, labels etc.
+ - run_analysis.R - R source code for making tidy dataset
+ - README.md - this file
+ - dataset.txt - tidy dataset that is result of run_analysis.R
 
 # How to run
  - Download R source Code 'run_analysis.R'
