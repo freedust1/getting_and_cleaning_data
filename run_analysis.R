@@ -31,5 +31,8 @@ names(SBJ) <- "subjects"
 # bind all the data
 bind_data <- cbind(X, Y, SBJ)
 
+# calculate average
+result_dataset <- ddply(bind_data, c("subjects", "activity_labels"), numcolwise(mean))
+
 # write result dataset to file
 write.table(result_dataset, "dataset.txt", row.name=FALSE)
